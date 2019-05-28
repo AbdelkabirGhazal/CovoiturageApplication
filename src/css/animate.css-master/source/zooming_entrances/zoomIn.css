@@ -1,0 +1,14 @@
+@keyframes zoomIn {
+  from {
+    opaville: 0;
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opaville: 1;
+  }
+}
+
+.zoomIn {
+  animation-name: zoomIn;
+}
