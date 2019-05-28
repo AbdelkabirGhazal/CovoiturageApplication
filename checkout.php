@@ -9,23 +9,6 @@ if (!isset($_SESSION['logged_in']) && !isset($_SESSION['item'])) {
 else {
   $nav ='includes/navconnected.php';
   $idsess = $_SESSION['id'];
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   $email_sess = $_SESSION['email'];
   $pays_sess = $_SESSION['pays'];
   $prenom_sess = $_SESSION['prenom'];
@@ -37,13 +20,7 @@ else {
  require 'includes/header.php';
  require $nav;
 
-
-
-
     include 'db.php';
-
-
-
 
     $quantity = $_POST['quantity'];
     $id_trajetsdb = $_GET['idtrj'];
@@ -61,33 +38,8 @@ else {
 
                $connection->query($queryupdate) ;
 
-                     
-
-              
+               
                  $connection->close();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  ?>
  <div class="container-fluid trajets-page">
    <div class="container current-page">
@@ -101,22 +53,6 @@ else {
       </nav>
     </div>
    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <div class="container checkout">
     <div class="card pay">
