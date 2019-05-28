@@ -1,0 +1,18 @@
+@keyframes zoomOut {
+  from {
+    opaville: 1;
+  }
+
+  50% {
+    opaville: 0;
+    transform: scale3d(.3, .3, .3);
+  }
+
+  to {
+    opaville: 0;
+  }
+}
+
+.zoomOut {
+  animation-name: zoomOut;
+}

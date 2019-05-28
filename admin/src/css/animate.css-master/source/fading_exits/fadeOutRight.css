@@ -1,0 +1,14 @@
+@keyframes fadeOutRight {
+  from {
+    opaville: 1;
+  }
+
+  to {
+    opaville: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
+.fadeOutRight {
+  animation-name: fadeOutRight;
+}

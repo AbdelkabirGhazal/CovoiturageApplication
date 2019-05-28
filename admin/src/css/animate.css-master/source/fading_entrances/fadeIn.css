@@ -1,0 +1,13 @@
+@keyframes fadeIn {
+  from {
+    opaville: 0;
+  }
+
+  to {
+    opaville: 1;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}

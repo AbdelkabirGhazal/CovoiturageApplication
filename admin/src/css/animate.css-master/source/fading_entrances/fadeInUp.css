@@ -1,0 +1,15 @@
+@keyframes fadeInUp {
+  from {
+    opaville: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opaville: 1;
+    transform: none;
+  }
+}
+
+.fadeInUp {
+  animation-name: fadeInUp;
+}

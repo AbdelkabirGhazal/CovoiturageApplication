@@ -1,0 +1,13 @@
+@keyframes fadeOut {
+  from {
+    opaville: 1;
+  }
+
+  to {
+    opaville: 0;
+  }
+}
+
+.fadeOut {
+  animation-name: fadeOut;
+}
